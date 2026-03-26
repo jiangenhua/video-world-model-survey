@@ -72,7 +72,7 @@
 
 **中等规模数据集（1,000-50,000h）**：MiraData（14,969h）、OpenHumanVid（16,700h）、Nitrogen（40,000h）、Open-P2P（8,351h）、SpatialVID（7,089h）、Sekai（5,064h）、GameGen-X（2,950h）、OpenDV-YouTube（2,059h）构成了主体阵营。
 
-**小规模数据集（<1,000h）**：WildWorld（~1,000h）、SAM2（196h）、VIPE-dynpose-100k（155.8h）、DrivingDojo（150h）、DL3DV-10K（~200h）、EPIC-KITCHENS-100（100h）、GF-Minecraft（70h）、Mid-Air（79min）、TartanAir（~27.8h）、ScanNet（~23h）、Waymo-Open（12h）、Context-as-Memory（7h）。
+**小规模数据集（<1,000h）**：WildWorld（1,000h）、SAM2（196h）、VIPE-dynpose-100k（155.8h）、DrivingDojo（150h）、DL3DV-10K（200h）、EPIC-KITCHENS-100（100h）、GF-Minecraft（70h）、Mid-Air（79min）、TartanAir（27.8h）、ScanNet（~23h）、Waymo-Open（12h）、Context-as-Memory（7h）。
 
 在**平均时长**维度上：
 
