@@ -726,7 +726,7 @@ echarts.init(document.getElementById('chart-source-quality')).setOption({
 echarts.init(document.getElementById('chart-feature-coverage')).setOption({
   tooltip: { trigger: 'axis' },
   grid: { left: 40, right: 40, top: 60, bottom: 40 },
-  xAxis: { type: 'category', data: ['Caption', 'Camera Trajectory', 'Action'], axisLabel: { color: COLORS.text, fontSize: 13 }, axisLine: { lineStyle: { color: COLORS.border } } },
+  xAxis: { type: 'category', data: ['Caption', 'Camera', 'Action'], axisLabel: { color: COLORS.text, fontSize: 13 }, axisLine: { lineStyle: { color: COLORS.border } } },
   yAxis: { type: 'value', max: 100, axisLabel: { color: COLORS.text, formatter: '{value}%' }, splitLine: { lineStyle: { color: COLORS.border } } },
   series: [
     { name: '覆盖率', type: 'bar', barWidth: 60, data: [
@@ -744,7 +744,7 @@ echarts.init(document.getElementById('chart-annotation-method')).setOption({
   tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
   legend: { top: 0, textStyle: { color: COLORS.text } },
   grid: { left: 40, right: 40, top: 40, bottom: 40 },
-  xAxis: { type: 'category', data: ['Caption', 'Camera Trajectory', 'Action'], axisLabel: { color: COLORS.text }, axisLine: { lineStyle: { color: COLORS.border } } },
+  xAxis: { type: 'category', data: ['Caption', 'Camera', 'Action'], axisLabel: { color: COLORS.text }, axisLine: { lineStyle: { color: COLORS.border } } },
   yAxis: { type: 'value', max: 23, axisLabel: { color: COLORS.text }, splitLine: { lineStyle: { color: COLORS.border } } },
   series: [
     { name: 'GT / 人工', type: 'bar', stack: 'total', barWidth: 50, itemStyle: { color: COLORS.green, borderRadius: [0,0,0,0] }, data: [1, 10, 4] },
@@ -789,7 +789,7 @@ echarts.init(document.getElementById('chart-action-methods')).setOption({
   tooltip: { trigger: 'axis' },
   grid: { left: 120, right: 40, top: 40, bottom: 30 },
   legend: { top: 0, textStyle: { color: COLORS.text } },
-  xAxis: { type: 'category', data: actionDS, axisLabel: { color: COLORS.text, fontSize: 11, rotate: 15 }, axisLine: { lineStyle: { color: COLORS.border } } },
+  xAxis: { type: 'category', data: actionDS, axisLabel: { color: COLORS.text, fontSize: 6, rotate: 15 }, axisLine: { lineStyle: { color: COLORS.border } } },
   yAxis: { type: 'value', max: 5, axisLabel: { color: COLORS.text, formatter: v => ['','键鼠信号','动词+名词','模型Caption','引擎GT\n+分类体系',''][v] || '' }, splitLine: { lineStyle: { color: COLORS.border } } },
   series: [{
     type: 'bar', barWidth: 40,
